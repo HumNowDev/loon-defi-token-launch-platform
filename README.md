@@ -4,12 +4,16 @@
 LOON is a production-ready ERC-20 token smart contract designed for professional DeFi token launches. It includes core features critical for secure deployment and token lifecycle management. This project demonstrates real-world Solidity development and smart contract architecture with a security-first approach — ideal for clients launching DeFi platforms or needing custom token infrastructure.
 
 ## 🔗 Key Features
-- ✅ ERC-20 token based on OpenZeppelin Contracts
+
+- ✅ ERC-20 token implementation using OpenZeppelin Contracts
 - ✅ Minting and burning functionality
-- ✅ Owner-only pausing/unpausing (emergency control)
+- ✅ Owner-only pause/unpause mechanism (emergency control)
 - ✅ Max total supply cap enforcement
-- ✅ Airdrop distribution mechanism
-- ✅ Ownership via OpenZeppelin's Ownable pattern
+- ✅ Airdrop distribution logic with one-time claim enforcement
+- ✅ Ownership management via OpenZeppelin’s Ownable pattern
+- ✅ Whitelist system — add/remove addresses with privileged access
+- ✅ Scalable token distribution tooling (ideal for presales, reward drops, private rounds)
+
 
 ## 📁 Project Structure
 ```
